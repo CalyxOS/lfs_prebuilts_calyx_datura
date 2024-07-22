@@ -1,0 +1,5 @@
+[gerrit]
+host=review.calyxos.org
+port=29418
+project=CalyxOS/lfs_prebuilts_calyx_datura
+defaultbranch=android14
