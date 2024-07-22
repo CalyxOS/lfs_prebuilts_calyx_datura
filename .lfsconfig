@@ -1,0 +1,3 @@
+[lfs]
+    url = "https://review.calyxos.org/CalyxOS/lfs_prebuilts_calyx_datura.git/info/lfs"
+    pushurl = "ssh://review.calyxos.org/CalyxOS/lfs_prebuilts_calyx_datura.git"
