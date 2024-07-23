@@ -1,0 +1,11 @@
+<?xml version='1.0' encoding='utf-8'?>
+<!--
+     SPDX-FileCopyrightText: 2024 The Calyx Institute
+     SPDX-License-Identifier: Apache-2.0
+-->
+<exceptions>
+    <exception package="org.calyxos.datura">
+        <!-- Notifications -->
+        <permission name="android.permission.POST_NOTIFICATIONS" fixed="false" />
+    </exception>
+</exceptions>
