@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+  SPDX-FileCopyrightText: 2022 The Calyx Institute
+  SPDX-License-Identifier: Apache-2.0
+  -->
+<config>
+    <install-in-user-type package="org.calyxos.datura">
+        <install-in user-type="SYSTEM" />
+        <install-in user-type="android.os.usertype.full.SECONDARY" />
+    </install-in-user-type>
+</config>
