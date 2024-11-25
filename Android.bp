@@ -11,6 +11,14 @@ prebuilt_etc {
     filename_from_src: true,
 }
 
+prebuilt_etc {
+    name: "preinstalled-packages-org.calyxos.datura",
+    system_ext_specific: true,
+    sub_dir: "sysconfig",
+    src: "preinstalled-packages-org.calyxos.datura.xml",
+    filename_from_src: true,
+}
+
 android_app_import {
     name: "Datura",
     apk: "app-release.apk",
@@ -20,5 +28,6 @@ android_app_import {
     optional_uses_libs: ["androidx.window.extensions", "androidx.window.sidecar"],
     required: [
         "default-permissions_org.calyxos.datura",
+        "preinstalled-packages-org.calyxos.datura",
     ],
 }
