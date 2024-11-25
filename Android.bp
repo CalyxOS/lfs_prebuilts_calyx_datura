@@ -5,7 +5,7 @@
 
 prebuilt_etc {
     name: "default-permissions_org.calyxos.datura",
-    product_specific: true,
+    system_ext_specific: true,
     sub_dir: "default-permissions",
     src: "default-permissions_org.calyxos.datura.xml",
     filename_from_src: true,
