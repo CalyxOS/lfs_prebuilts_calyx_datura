@@ -16,6 +16,24 @@
       "message": "So this puts a second Datura in the Private Space? If so, that differs from Work Profile that we handle in the same app, which is going to be confusing.",
       "revId": "09d7cee25ce605d3331a0f8d3ab1309fe2a6422d",
       "serverId": "35266860-6252-469c-a67d-185064479fc0"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "38b567e1_f411452b",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 2
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 1000002
+      },
+      "writtenOn": "2024-11-26T14:49:18Z",
+      "side": 1,
+      "message": "Title matches previous commits that implemented these XMLs for Glimpse and Star. Here we define that we want it only on full users, not profiles",
+      "parentUuid": "12908be9_ad6c190c",
+      "revId": "09d7cee25ce605d3331a0f8d3ab1309fe2a6422d",
+      "serverId": "35266860-6252-469c-a67d-185064479fc0"
     }
   ]
 }
